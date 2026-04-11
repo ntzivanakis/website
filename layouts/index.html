@@ -13,8 +13,31 @@
       <div class="hero-links">
         <a href="https://scholar.google.com/citations?hl=en&authuser=2&user=aCWXcZUAAAAJ">Google Scholar</a>
         <a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=4501090">SSRN</a>
-        <a href="mailto:n.tzivanakis@ucl.ac.uk">Contact</a>
+        <a href="{{ "contact/" | relURL }}" class="hero-contact">Contact</a>
       </div>
+    </div>
+  </div>
+
+  <div class="latest-work">
+    <h2 class="section-title" style="font-size:1.5rem;">Latest Work</h2>
+    <div class="latest-grid">
+      {{ range .Site.Params.featured_papers }}
+      <a href="{{ .url }}" class="latest-card" target="_blank">
+        <div class="latest-label"><span class="latest-dot"></span> Publication</div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .desc }}</p>
+        <div class="latest-meta">{{ .venue }} →</div>
+      </a>
+      {{ end }}
+
+      {{ range first 2 (where .Site.RegularPages "Section" "blog") }}
+      <a href="{{ .Permalink }}" class="latest-card">
+        <div class="latest-label"><span class="latest-dot"></span> Blog</div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Summary | truncate 120 }}</p>
+        <div class="latest-meta">{{ .Date.Format "January 2006" }} →</div>
+      </a>
+      {{ end }}
     </div>
   </div>
 </div>
