@@ -1,6 +1,5 @@
 ---
 title: "Contact"
-menu: "main"
 ---
 
 **Email:** [n.tzivanakis@ucl.ac.uk](mailto:n.tzivanakis@ucl.ac.uk)
