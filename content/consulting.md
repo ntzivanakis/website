@@ -1,6 +1,5 @@
 ---
 title: "NT Consulting"
-menu: "main"
 ---
 
 <div class="consult-grid">
