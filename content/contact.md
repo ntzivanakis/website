@@ -4,6 +4,5 @@ title: "Contact"
 
 **Email:** [n.tzivanakis@ucl.ac.uk](mailto:n.tzivanakis@ucl.ac.uk)
 
-**Address:** 149 Tottenham Ct Rd, London W1T 7NE
-
-I am always open to collaboration, consulting opportunities, and engaging discussions on economic topics. Feel free to get in touch to discuss how we can work together.
+**Address:** UCL Institute for Global Prosperity, Bartlett Faculty of the Built Environment
+9-11 Endsleigh Gardens, London WC1H 0EH
