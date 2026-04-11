@@ -1,6 +1,5 @@
 ---
 title: "Data"
-menu: "main"
 ---
 
 <div class="data-grid">
