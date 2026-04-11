@@ -1,7 +1,9 @@
-baseURL = "https://nikostzivanakis.com/"
+baseURL = "https://ntzivanakis.github.io/website/"
 languageCode = "en-gb"
 title = "Nikos Tzivanakis"
-paginate = 10
+
+[pagination]
+  pagerSize = 10
 
 [params]
   description = "Applied economist. Senior Research Fellow & Head of Data at UCL's Institute for Global Prosperity."
