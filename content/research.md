@@ -2,16 +2,18 @@
 title: "Research"
 ---
 
+## Publications
+
 <div class="paper">
-  <div class="paper-venue">Scientific Reports, 2024</div>
-  <div class="paper-title"><a href="https://www.nature.com/articles/s41598-024-00000-0">SplitWise Regression</a></div>
-  <div class="paper-desc">A novel regression approach for analysing composite outcomes.</div>
+  <div class="paper-venue">Scientific Reports (Nature), 2025</div>
+  <div class="paper-title"><a href="https://doi.org/10.1038/s41598-025-26597-7">SplitWise Regression for Capturing Nonlinear Effects in Interpretable Model Selection</a></div>
+  <div class="paper-desc">A stepwise regression framework that adaptively transforms numeric predictors into threshold-based binary features using shallow decision trees, preserving the transparency of linear models while flexibly capturing nonlinear effects.<br><strong>R Package:</strong> <a href="https://cran.r-project.org/web/packages/SplitWise/index.html">CRAN</a> · <a href="https://github.com/mtkurbucz/SplitWise">GitHub</a></div>
 </div>
 
 <div class="paper">
   <div class="paper-venue">Post-Communist Economies, 2025</div>
-  <div class="paper-title"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4501090">Measuring the Informal Economy in Balkan Countries Using Structural Equation Modelling</a></div>
-  <div class="paper-desc">We investigate the size and trends of the informal economy in ten Balkan nations from 1996–2021 using the MIMIC model. Our findings reveal a consistent decline in the IE in our sample, albeit it remains substantial, exceeding 29% of GDP in 2021. We also explore the impact of the COVID-19 pandemic on the IE of the region.</div>
+  <div class="paper-title"><a href="https://doi.org/10.1080/14631377.2025.2566418">Unveiling the Shadows: Tracing the Informal Economy in the Balkans from 1996 to 2021</a></div>
+  <div class="paper-desc">Using the MIMIC model, we analyse the informal economy in ten Balkan countries from 1996 to 2021. Results show a decline from approximately 35% in 1996 to over 29% of GDP by 2021, with the COVID-19 pandemic causing a 1–3 percentage point increase in 2020.</div>
 </div>
 
 ## Working Papers
