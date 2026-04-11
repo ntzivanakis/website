@@ -9,6 +9,18 @@ title = "Nikos Tzivanakis"
   description = "Applied economist. Senior Research Fellow & Head of Data at UCL's Institute for Global Prosperity."
   author = "Nikolaos Tzivanakis"
 
+[[params.featured_papers]]
+  title = "SplitWise Regression"
+  desc = "A stepwise regression framework capturing nonlinear effects while maintaining interpretability."
+  venue = "Scientific Reports (Nature), 2025"
+  url = "https://doi.org/10.1038/s41598-025-26597-7"
+
+[[params.featured_papers]]
+  title = "Unveiling the Shadows: Informal Economy in the Balkans"
+  desc = "Tracing the informal economy in ten Balkan nations from 1996 to 2021 using the MIMIC model."
+  venue = "Post-Communist Economies, 2025"
+  url = "https://doi.org/10.1080/14631377.2025.2566418"
+
 [menu]
   [[menu.main]]
     name = "Home"
