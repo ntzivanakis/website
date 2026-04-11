@@ -1,6 +1,5 @@
 ---
 title: "Research"
-menu: "main"
 ---
 
 <div class="paper">
