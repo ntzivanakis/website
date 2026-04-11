@@ -1,0 +1,43 @@
+baseURL = "https://nikostzivanakis.com/"
+languageCode = "en-gb"
+title = "Nikos Tzivanakis"
+paginate = 10
+
+[params]
+  description = "Applied economist. Senior Research Fellow & Head of Data at UCL's Institute for Global Prosperity."
+  author = "Nikolaos Tzivanakis"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Data"
+    url = "/data/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+  [[menu.main]]
+    name = "Consulting"
+    url = "/consulting/"
+    weight = 5
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 6
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 7
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

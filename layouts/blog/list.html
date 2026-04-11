@@ -1,0 +1,13 @@
+{{ define "main" }}
+<div class="container">
+  <h2 class="section-title">Blog</h2>
+  <div class="blog-grid">
+    {{ range .Pages }}
+    <a href="{{ .Permalink }}" class="blog-card" style="text-decoration:none;color:inherit;">
+      <div class="blog-date">{{ .Date.Format "January 2006" }}</div>
+      <h3>{{ .Title }}</h3>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

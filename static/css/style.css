@@ -1,0 +1,193 @@
+:root {
+  --ink: #1a1a1a;
+  --paper: #faf8f4;
+  --accent: #8b4513;
+  --muted: #6b6b6b;
+  --rule: #d4cfc7;
+  --card-bg: #f3f0ea;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+a:hover { color: #5c2e0a; }
+
+/* NAV */
+nav {
+  position: sticky; top: 0; z-index: 100;
+  background: var(--paper);
+  border-bottom: 1px solid var(--rule);
+  padding: 0 2rem;
+}
+.nav-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 64px;
+}
+.nav-logo {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.35rem; font-weight: 700;
+  color: var(--ink); text-decoration: none;
+  letter-spacing: -0.02em;
+}
+.nav-links { display: flex; gap: 1.8rem; list-style: none; }
+.nav-links a {
+  font-size: 0.82rem; font-weight: 500; color: var(--muted);
+  text-decoration: none; text-transform: uppercase; letter-spacing: 0.08em;
+}
+.nav-links a:hover, .nav-links a.active { color: var(--accent); }
+
+/* LAYOUT */
+.container { max-width: 1100px; margin: 0 auto; padding: 3rem 2rem; }
+
+/* HERO */
+.hero {
+  padding: 5rem 0 4rem;
+  display: grid; grid-template-columns: 220px 1fr; gap: 4rem;
+  align-items: start;
+}
+.hero-photo {
+  width: 220px; height: 280px;
+  object-fit: cover; border-radius: 4px;
+  filter: grayscale(20%);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+.hero h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3rem; font-weight: 700;
+  letter-spacing: -0.03em; line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+.hero-subtitle { font-size: 1.05rem; color: var(--accent); font-weight: 500; margin-bottom: 0.4rem; }
+.hero-affil { font-size: 0.88rem; color: var(--muted); margin-bottom: 1.5rem; }
+.hero-quote {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic; font-size: 1.1rem;
+  color: var(--muted); border-left: 3px solid var(--accent);
+  padding-left: 1rem; margin-bottom: 1.8rem;
+}
+.hero-bio { font-size: 0.92rem; color: #444; max-width: 600px; line-height: 1.7; }
+.hero-links { margin-top: 1.5rem; display: flex; gap: 1rem; }
+.hero-links a {
+  font-size: 0.8rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em;
+  color: var(--accent); padding: 0.5rem 1.2rem;
+  border: 1.5px solid var(--accent); border-radius: 3px;
+}
+.hero-links a:hover { background: var(--accent); color: #fff; }
+
+/* SECTION TITLES */
+.section-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem; font-weight: 700;
+  letter-spacing: -0.02em; margin-bottom: 2rem;
+}
+
+/* PAPERS */
+.paper { margin-bottom: 1.8rem; padding-bottom: 1.8rem; border-bottom: 1px solid var(--rule); }
+.paper:last-child { border-bottom: none; }
+.paper-venue {
+  font-size: 0.78rem; color: var(--accent);
+  text-transform: uppercase; letter-spacing: 0.05em;
+  font-weight: 600; margin-bottom: 0.4rem;
+}
+.paper-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem; font-weight: 600; margin-bottom: 0.3rem;
+}
+.paper-desc { font-size: 0.85rem; color: var(--muted); max-width: 750px; line-height: 1.65; }
+
+/* BLOG */
+.blog-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.blog-card {
+  background: var(--card-bg); border-radius: 6px;
+  padding: 1.5rem; transition: transform 0.2s, box-shadow 0.2s;
+}
+.blog-card:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(0,0,0,0.06); }
+.blog-date {
+  font-size: 0.72rem; color: var(--accent);
+  text-transform: uppercase; letter-spacing: 0.06em;
+  font-weight: 600; margin-bottom: 0.5rem;
+}
+.blog-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem; font-weight: 600; line-height: 1.3;
+}
+
+/* BLOG SINGLE */
+.blog-single { max-width: 750px; }
+.blog-single h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem; font-weight: 700; line-height: 1.2; margin-bottom: 0.5rem;
+}
+.blog-single .meta { font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+.blog-single .content { font-size: 0.95rem; line-height: 1.8; }
+.blog-single .content h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; margin: 2rem 0 1rem; }
+.blog-single .content p { margin-bottom: 1rem; }
+
+/* DATA */
+.data-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0;
+}
+.data-item {
+  display: flex; align-items: baseline; gap: 0.5rem;
+  padding: 0.6rem 0; border-bottom: 1px solid var(--rule);
+}
+.data-item a { font-size: 0.88rem; font-weight: 500; color: var(--ink); }
+.data-item a:hover { color: var(--accent); }
+.data-dot {
+  width: 5px; height: 5px;
+  background: var(--accent); border-radius: 50%;
+  flex-shrink: 0; margin-top: 6px;
+}
+.data-desc { font-size: 0.8rem; color: var(--muted); margin-top: 0.2rem; }
+
+/* CONSULTING */
+.consult-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; }
+.consult-card { background: var(--card-bg); padding: 2rem; border-radius: 6px; }
+.consult-card h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem; font-weight: 600; margin-bottom: 0.6rem;
+}
+.consult-card p { font-size: 0.85rem; color: var(--muted); line-height: 1.6; }
+
+/* CV */
+.cv-heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem; font-weight: 600;
+  color: var(--accent); margin: 2.2rem 0 1rem;
+  padding-bottom: 0.4rem; border-bottom: 1px solid var(--rule);
+}
+.cv-entry { font-size: 0.88rem; line-height: 1.6; padding: 0.5rem 0; }
+.cv-date {
+  display: inline-block; width: 160px;
+  font-size: 0.78rem; color: var(--muted); font-weight: 500;
+}
+
+/* FOOTER */
+footer {
+  max-width: 1100px; margin: 0 auto;
+  padding: 2rem; border-top: 1px solid var(--rule);
+  display: flex; justify-content: space-between; align-items: center;
+}
+footer span { font-size: 0.78rem; color: var(--muted); }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero { grid-template-columns: 1fr; gap: 2rem; }
+  .hero-photo { width: 160px; height: 200px; }
+  .hero h1 { font-size: 2.2rem; }
+  .blog-grid { grid-template-columns: 1fr; }
+  .consult-grid { grid-template-columns: 1fr; }
+  .nav-links { gap: 1rem; flex-wrap: wrap; }
+  .cv-date { width: auto; display: block; }
+}

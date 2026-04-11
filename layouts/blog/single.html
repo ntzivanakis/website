@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="container blog-single">
+  <h1>{{ .Title }}</h1>
+  <div class="meta">{{ .Date.Format "2 January 2006" }}</div>
+  <div class="content">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}
