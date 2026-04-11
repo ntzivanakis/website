@@ -1,6 +1,5 @@
 ---
 title: "CV"
-menu: "main"
 ---
 
 <p style="font-size:0.88rem;color:var(--muted);margin-bottom:2.5rem;">149 Tottenham Ct Rd, London W1T 7NE · <a href="mailto:n.tzivanakis@ucl.ac.uk">n.tzivanakis@ucl.ac.uk</a></p>
