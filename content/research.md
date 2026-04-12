@@ -95,6 +95,6 @@ title: "Research"
 ## PhD Thesis
 
 <div class="paper">
-  <div class="paper-title"><a href="http://orca.cf.ac.uk/113860/">Essays on the Quality of Institutions and Economic Performance</a></div>
+  <div class="paper-title"><a href="https://orca.cardiff.ac.uk/id/eprint/113860/">Essays on the Quality of Institutions and Economic Performance</a></div>
   <div class="paper-desc">A model of institutional change where the probability of revolution depends on the state of the economy and the level of education. Cardiff University, 2018.</div>
 </div>
