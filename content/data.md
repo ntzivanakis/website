@@ -24,7 +24,6 @@ title: "Data"
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://www.transparency.org/en/cpi">Corruption Perception Index (Transparency International)</a><div class="data-desc">Annual cross-country index of perceived public sector corruption.</div></div></div>
 
-<div class="data-item"><span class="data-dot"></span><div><a href="https://www.fraserinstitute.org/economic-freedom/">Economic Freedom Rankings (Fraser Institute)</a><div class="data-desc">Annual index of economic freedom across over 160 countries.</div></div></div>
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://ec.europa.eu/CensusHub2/">EU Census Data</a><div class="data-desc">Harmonised EU population and housing census data by region.</div></div></div>
 
