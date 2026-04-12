@@ -31,7 +31,7 @@ title: "Data"
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://europa.eu/eurobarometer/">Eurobarometer</a><div class="data-desc">European Commission public opinion surveys across EU member states.</div></div></div>
 
-<div class="data-item"><span class="data-dot"></span><div><a href="https://sdw.ecb.europa.eu/">European Central Bank Statistical Data Warehouse</a><div class="data-desc">ECB monetary, banking, and financial statistics for the euro area.</div></div></div>
+<div class="data-item"><span class="data-dot"></span><div><a href="https://data.ecb.europa.eu/">European Central Bank Data Portal</a><div class="data-desc">ECB monetary, banking, and financial statistics for the euro area.</div></div></div>
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://www.europeansocialsurvey.org/">European Social Survey</a><div class="data-desc">Biennial cross-national survey of attitudes and behaviours in Europe.</div></div></div>
 
@@ -81,7 +81,7 @@ title: "Data"
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://www.worldvaluessurvey.org/">World Values Survey</a><div class="data-desc">Global survey of social, cultural, and political values since 1981.</div></div></div>
 
-<div class="data-item"><span class="data-dot"></span><div><a href="https://info.worldbank.org/governance/wgi/">Worldwide Governance Indicators</a><div class="data-desc">World Bank composite governance scores for over 200 countries.</div></div></div>
+<div class="data-item"><span class="data-dot"></span><div><a href="https://databank.worldbank.org/source/worldwide-governance-indicators">Worldwide Governance Indicators</a><div class="data-desc">World Bank composite governance scores for over 200 countries.</div></div></div>
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://www.wto.org/english/res_e/statis_e/statis_e.htm">WTO Data</a><div class="data-desc">International trade statistics and tariff data from the WTO.</div></div></div>
 
