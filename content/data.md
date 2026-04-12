@@ -4,7 +4,7 @@ title: "Data"
 
 <div class="data-grid">
 
-<div class="data-item"><span class="data-dot"></span><a href="https://institute-for-global-prosperity.shinyapps.io/public/">Citizen Prosperity Index – East London (IGP)</a></div>
+<div class="data-item"><span class="data-dot"></span><a href="https://institute-for-global-prosperity.shinyapps.io/citizenprosperityindex/?tab=home">Citizen Prosperity Index – East London (IGP)</a></div>
 <div class="data-item"><span class="data-dot"></span><a href="https://www.prio.org/Data/Armed-Conflict/UCDP-PRIO/">Armed Conflict Dataset</a></div>
 <div class="data-item"><span class="data-dot"></span><a href="http://www.barrolee.com/">Barro-Lee Educational Attainment Data</a></div>
 <div class="data-item"><span class="data-dot"></span><a href="https://www.bankofengland.co.uk/boeapps/database/">Bank of England Database</a></div>
