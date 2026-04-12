@@ -34,11 +34,6 @@ title: "Research"
 </div>
 
 <div class="paper">
-  <div class="paper-title"><a href="https://discovery.ucl.ac.uk/id/eprint/10217006/1/CUPUM2025_EastLondonSurveyData_250525.pdf">East London Survey Data</a></div>
-  <div class="paper-desc">Presenting the East London Survey Data, collected from 4,093 households across 94 Output Areas in five boroughs. With Sari Aslam, Woodcraft & Kurbucz.</div>
-</div>
-
-<div class="paper">
   <div class="paper-title"><a href="https://doi.org/10.2139/ssrn.4973048">The Educational Path to Institutional Quality: A Panel Analysis of Developing Economies</a></div>
   <div class="paper-desc">Examining how education influences institutional quality using a panel of 86 developing nations (1970–2014) with Fixed Effects, GMM, and bias-corrected estimators.</div>
 </div>
