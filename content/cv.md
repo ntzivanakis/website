@@ -33,10 +33,10 @@ title: "CV"
 
 <h3 class="cv-heading">Selected Publications</h3>
 
-<div class="cv-entry"><strong>SplitWise Regression for Capturing Nonlinear Effects in Interpretable Model Selection</strong> — <em>Scientific Reports (Nature)</em>, 2025.</div>
-<div class="cv-entry"><strong>Unveiling the Shadows: Tracing the Informal Economy in the Balkans from 1996 to 2021</strong> — <em>Post-Communist Economies</em>, 2025.</div>
-<div class="cv-entry"><strong>Redefining Prosperity with and for Communities in Dar es Salaam, Tanzania</strong> — IGP Report, 2025.</div>
-<div class="cv-entry"><strong>A Citizen Prosperity Index for East London: New Evidence and a New Approach to Tackling Inequalities</strong> — IGP Report, 2024.</div>
+<div class="cv-entry">Kurbucz, M. T., Tzivanakis, N., Sari Aslam, N., &amp; Sykulski, A. M. (2025). <strong>SplitWise regression for capturing nonlinear effects in interpretable model selection.</strong> <em>Scientific Reports</em>, 15, Article 42454. <a href="https://doi.org/10.1038/s41598-025-26597-7">link</a></div>
+<div class="cv-entry">Asllani, A., Tzivanakis, N., &amp; Schneider, F. (2025). <strong>Unveiling the shadows: Tracing the informal economy in the Balkans from 1996 to 2021.</strong> <em>Post-Communist Economies</em>, 37(8), 1093–1124. <a href="https://doi.org/10.1080/14631377.2025.2566418">link</a></div>
+<div class="cv-entry">Woodcraft, S., Tzivanakis, N., Makoba, F., &amp; Ndezi, T. (2025). <strong>Redefining prosperity with and for communities in Dar es Salaam, Tanzania: Beyond economic metrics for African cities.</strong> UCL Institute for Global Prosperity. <a href="https://discovery.ucl.ac.uk/id/eprint/10209994/">link</a></div>
+<div class="cv-entry">Woodcraft, S., Tzivanakis, N., Perez, J., &amp; Lorgat, R. (2024). <strong>A Citizen Prosperity Index for east London: New evidence and a new approach to tackling inequalities.</strong> UCL Institute for Global Prosperity. <a href="https://discovery.ucl.ac.uk/id/eprint/10199929/">link</a></div>
 
 <h3 class="cv-heading">Awards &amp; Fellowships</h3>
 
