@@ -172,6 +172,12 @@ nav {
   display: inline-block; width: 160px;
   font-size: 0.78rem; color: var(--muted); font-weight: 500;
 }
+.cv-detail {
+  display: block;
+  margin-left: 160px;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
 
 /* FOOTER */
 footer {
@@ -190,6 +196,7 @@ footer span { font-size: 0.78rem; color: var(--muted); }
   .consult-grid { grid-template-columns: 1fr; }
   .nav-links { gap: 1rem; flex-wrap: wrap; }
   .cv-date { width: auto; display: block; }
+  .cv-detail { margin-left: 0; }
 }
 
 /* LATEST WORK */

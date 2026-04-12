@@ -15,7 +15,7 @@ title: "CV"
 
 <h3 class="cv-heading">Education</h3>
 
-<div class="cv-entry"><span class="cv-date">2013 – 2018</span><strong>PhD in Economics</strong> — Cardiff University<br><span style="color:var(--muted);font-size:0.85rem;">"Essays on the Quality of Institutions and Economic Performance." Advisors: James Foreman-Peck, Peng Zhou. ESRC funded.</span></div>
+<div class="cv-entry"><span class="cv-date">2013 – 2018</span><strong>PhD in Economics</strong> — Cardiff University<span class="cv-detail">"Essays on the Quality of Institutions and Economic Performance." Advisors: James Foreman-Peck, Peng Zhou. ESRC funded.</span></div>
 <div class="cv-entry"><span class="cv-date">2013</span><strong>M.Res in Advanced Economics</strong> — Cardiff University <em>(Distinction, top 1%)</em></div>
 <div class="cv-entry"><span class="cv-date">2012</span><strong>M.Sc in Economics</strong> — Cardiff University</div>
 <div class="cv-entry"><span class="cv-date">2011</span><strong>M.Sc in International Economics, Banking and Finance</strong> — Cardiff University <em>(Distinction, top 1%)</em></div>
@@ -23,21 +23,20 @@ title: "CV"
 
 <h3 class="cv-heading">Grants</h3>
 
-<div class="cv-entry"><span class="cv-date">2024 – 2027</span><strong>BENEFITS</strong> — EC Horizon Europe. CoI.<br><span style="color:var(--muted);font-size:0.85rem;">Building Economic, Needs-Based and Environmental Evaluation Frameworks for Inclusive Transformation of Social Services in Europe.</span></div>
+<div class="cv-entry"><span class="cv-date">2024 – 2027</span><strong>BENEFITS</strong> — EC Horizon Europe (€3M). CoI.<span class="cv-detail">Building Economic, Needs-Based and Environmental Evaluation Frameworks for Inclusive Transformation of Social Services in Europe.</span></div>
 <div class="cv-entry"><span class="cv-date">2023</span><strong>Citizen Prosperity Index Commercialisation</strong> — UCLB (£30,000). CoPI.</div>
 <div class="cv-entry"><span class="cv-date">2023</span><strong>UEL Seed Funding</strong> — Revisiting asymmetries in political trust (£2,000). PI.</div>
 <div class="cv-entry"><span class="cv-date">2023</span><strong>UEL Seed Funding</strong> — Informal Economy in the UK, 1940–Present (£2,000). PI.</div>
-<div class="cv-entry"><span class="cv-date">2021 – 2023</span><strong>REFUGE-ED</strong> — EC Horizon 2020. Senior Researcher.</div>
-<div class="cv-entry"><span class="cv-date"></span><strong>ARCHIMEDES</strong> — Bodosakis Foundation. CoI.</div>
+<div class="cv-entry"><span class="cv-date">2021 – 2023</span><strong>REFUGE-ED</strong> — EC Horizon 2020. Researcher.</div>
+<div class="cv-entry"><span class="cv-date"></span><strong>ARCHIMEDES</strong> — Bodosakis Foundation. Researcher.</div>
 <div class="cv-entry"><span class="cv-date">2011 – 2015</span><strong>ESRC Wales DTC</strong> — Doctoral scholarship (fees &amp; stipend).</div>
 
-<h3 class="cv-heading">Selected Publications &amp; Working Papers</h3>
+<h3 class="cv-heading">Selected Publications</h3>
 
-<div class="cv-entry"><strong>SplitWise Regression</strong> — <em>Scientific Reports</em>, 2024.</div>
-<div class="cv-entry"><strong>Measuring the Informal Economy in Balkan Countries</strong> — <em>Post-Communist Economies</em>, 2025.</div>
-<div class="cv-entry"><strong>Crime and Unemployment</strong> — with E. Goulas &amp; S. Karidis (under review).</div>
-<div class="cv-entry"><strong>Unveiling the Shadows: Informal Economy in the Balkans (1996–2021)</strong> — with A. Asllani &amp; F. Schneider.</div>
-<div class="cv-entry"><strong>Europe in Crisis: Political Trust, Corruption and Austerity</strong> — with G. Melios.</div>
+<div class="cv-entry"><strong>SplitWise Regression for Capturing Nonlinear Effects in Interpretable Model Selection</strong> — <em>Scientific Reports (Nature)</em>, 2025.</div>
+<div class="cv-entry"><strong>Unveiling the Shadows: Tracing the Informal Economy in the Balkans from 1996 to 2021</strong> — <em>Post-Communist Economies</em>, 2025.</div>
+<div class="cv-entry"><strong>Redefining Prosperity with and for Communities in Dar es Salaam, Tanzania</strong> — IGP Report, 2025.</div>
+<div class="cv-entry"><strong>A Citizen Prosperity Index for East London: New Evidence and a New Approach to Tackling Inequalities</strong> — IGP Report, 2024.</div>
 
 <h3 class="cv-heading">Awards &amp; Fellowships</h3>
 
