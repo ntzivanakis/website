@@ -11,7 +11,7 @@ site/
 ├── hugo.toml                    # Site config (title, menu, settings)
 ├── content/
 │   ├── _index.md                # Home page (content in layouts/index.html)
-│   ├── research.md              # Research page
+│   ├── research.md              # Research page (list comes from data/publications.yaml)
 │   ├── data.md                  # Data resources page
 │   ├── consulting.md            # NT Consulting page
 │   ├── cv.md                    # Full CV page
@@ -21,6 +21,8 @@ site/
 │       ├── 2025-03-17-the-silent-wealth-machine.md
 │       ├── 2025-03-10-the-illusion-of-tariff-benefits.md
 │       └── ... (8 more posts, some need content migrated)
+├── data/
+│   └── publications.yaml        # ALL papers live here (Research page + home page)
 ├── layouts/                     # HTML templates
 ├── static/
 │   ├── css/style.css            # All styling
@@ -124,6 +126,40 @@ You can edit directly on GitHub.com:
 2. Click the pencil icon
 3. Make your changes
 4. Click **Commit changes**
+
+### Add a new paper
+
+Every paper on the site lives in **one** file: `data/publications.yaml`.
+
+Open it, copy an existing block, change the fields, and put it at the top of its
+section. Two things then happen on their own:
+
+- it appears on the **Research** page, under its section heading
+- if it is one of the 4 most recent by `date`, it appears in **Latest Work** on
+  the home page
+
+You never edit `content/research.md` or `hugo.toml` to add a paper.
+
+```yaml
+  - section: "Journal Articles"     # must match a section name at the top of the file
+    date: "2026-03-01"              # ordering only - day/month can be approximate
+    venue: "Journal of Something, 2026"   # optional; leave out for working papers
+    title: "The Full Title As It Should Appear On The Research Page"
+    url: "https://doi.org/..."
+    desc: >-
+      The full description shown on the Research page. HTML is allowed here,
+      so you can add links, <strong>bold</strong> or <br> line breaks.
+    short_title: "A Shorter Title"  # optional; used on the home page card
+    short_desc: "One line for the home page card."   # optional
+```
+
+`short_title` and `short_desc` only exist to keep the home page cards tidy.
+Leave them out and the card falls back to the full title and the first 140
+characters of `desc`.
+
+The sections themselves (Journal Articles, Working Papers, Reports, PhD Thesis)
+are listed at the top of the same file - add or rename one there and the
+Research page follows.
 
 ### Add a new blog post
 

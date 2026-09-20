@@ -21,23 +21,19 @@
   <div class="latest-work">
     <h2 class="section-title" style="font-size:1.5rem;">Latest Work</h2>
     <div class="latest-grid">
-      {{ range .Site.Params.featured_papers }}
+      {{- /* The 4 newest entries in data/publications.yaml, by date. */ -}}
+      {{- $labels := dict -}}
+      {{- range site.Data.publications.sections -}}
+        {{- $labels = merge $labels (dict .name .label) -}}
+      {{- end }}
+      {{- range first 4 (sort site.Data.publications.items "date" "desc") }}
       <a href="{{ .url }}" class="latest-card" target="_blank">
-        <div class="latest-label"><span class="latest-dot"></span> Publication</div>
-        <h3>{{ .title }}</h3>
-        <p>{{ .desc }}</p>
-        <div class="latest-meta">{{ .venue }} →</div>
+        <div class="latest-label"><span class="latest-dot"></span> {{ index $labels .section | default "Publication" }}</div>
+        <h3>{{ .short_title | default .title }}</h3>
+        <p>{{ with .short_desc }}{{ . }}{{ else }}{{ .desc | plainify | truncate 140 }}{{ end }}</p>
+        <div class="latest-meta">{{ with .venue }}{{ . }}{{ else }}{{ substr .date 0 4 }}{{ end }} →</div>
       </a>
-      {{ end }}
-
-      {{ range first 2 (where .Site.RegularPages "Section" "blog") }}
-      <a href="{{ .Permalink }}" class="latest-card">
-        <div class="latest-label"><span class="latest-dot"></span> Blog</div>
-        <h3>{{ .Title }}</h3>
-        <p>{{ .Summary | truncate 120 }}</p>
-        <div class="latest-meta">{{ .Date.Format "January 2006" }} →</div>
-      </a>
-      {{ end }}
+      {{- end }}
     </div>
   </div>
 </div>

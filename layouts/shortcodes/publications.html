@@ -1,0 +1,17 @@
+{{- /* Renders every entry in data/publications.yaml, grouped by section, in
+       the order they appear in that file. Used on the Research page. */ -}}
+{{- $items := site.Data.publications.items -}}
+{{- range $i, $s := site.Data.publications.sections -}}
+{{- $name := $s.name -}}
+{{- with where $items "section" $name -}}
+{{ if $i }}
+{{ end }}<h2 id="{{ $name | urlize }}">{{ $name }}</h2>
+{{- range . }}
+<div class="paper">
+  {{ with .venue }}<div class="paper-venue">{{ . }}</div>
+  {{ end }}<div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
+  <div class="paper-desc">{{ .desc | safeHTML }}</div>
+</div>
+{{- end }}
+{{- end -}}
+{{- end -}}

@@ -1,0 +1,204 @@
+# ---------------------------------------------------------------------------
+# Every publication on the site lives here, once.
+#
+#   * The Research page (/research/) lists all of them, grouped by section,
+#     in the order they appear below.
+#   * The "Latest Work" grid on the home page shows the 4 newest by `date`,
+#     automatically. Nothing else to edit.
+#
+# To add a paper: copy an existing block, change the fields, put it at the top
+# of its section. That's it — the home page updates itself.
+#
+# Fields
+#   section      Which heading it goes under (must match a name in `sections`).
+#   date         Used only for ordering "Latest Work" (newest first).
+#                YYYY-MM-DD. The day/month can be approximate; only the
+#                relative order matters.
+#   title        Full title, shown on the Research page.
+#   url          Link to the paper.
+#   desc         Full description, shown on the Research page.
+#                HTML is allowed here (links, <strong>, <br>).
+#   venue        Optional. Journal/publisher line, e.g. "Scientific Reports
+#                (Nature), 2025". Leave it out for working papers.
+#   short_title  Optional. Shorter title for the home page card.
+#                Defaults to `title`.
+#   short_desc   Optional. One-line summary for the home page card.
+#                Defaults to the first 140 characters of `desc`.
+# ---------------------------------------------------------------------------
+
+sections:
+  - name: "Journal Articles"
+    label: "Publication"
+  - name: "Working Papers"
+    label: "Working Paper"
+  - name: "Reports"
+    label: "Report"
+  - name: "PhD Thesis"
+    label: "Thesis"
+
+items:
+  # --- Journal Articles ----------------------------------------------------
+
+  - section: "Journal Articles"
+    date: "2026-01-01"
+    venue: "Economics of Transition and Institutional Change (Wiley), 2026"
+    title: "State Capture and the Limits of Human Capital: Education and Institutional Quality in Post-Socialist Europe"
+    url: "https://doi.org/10.1111/ecot.70048"
+    desc: >-
+      Using the European Quality of Government Index across 183 NUTS-2 regions (2010–2024), this paper shows that education raises institutional quality in Western Europe but not in post-socialist regions, where state capture nullifies its effect. An Oaxaca–Blinder decomposition attributes 77% of the West–East governance gap to different returns to education rather than different levels, and quasi-experimental evidence from democratic backsliding in Hungary and Poland confirms that intensified capture drives institutional decline.
+    short_title: "State Capture and the Limits of Human Capital"
+    short_desc: "Education raises institutional quality in Western Europe but not in post-socialist regions, where state capture nullifies its effect."
+
+  - section: "Journal Articles"
+    date: "2025-11-01"
+    venue: "Scientific Reports (Nature), 2025"
+    title: "SplitWise Regression for Capturing Nonlinear Effects in Interpretable Model Selection"
+    url: "https://doi.org/10.1038/s41598-025-26597-7"
+    desc: >-
+      A stepwise regression framework that adaptively transforms numeric predictors into threshold-based binary features using shallow decision trees, preserving the transparency of linear models while flexibly capturing nonlinear effects. With Kurbucz, Sari Aslam & Sykulski.<br><strong>R Package:</strong> <a href="https://cran.r-project.org/web/packages/SplitWise/index.html">CRAN</a> · <a href="https://github.com/mtkurbucz/SplitWise">GitHub</a> · <a href="https://arxiv.org/abs/2505.15423">arXiv</a>
+    short_title: "SplitWise Regression"
+    short_desc: "A stepwise regression framework capturing nonlinear effects while maintaining interpretability."
+
+  - section: "Journal Articles"
+    date: "2025-09-01"
+    venue: "Post-Communist Economies, 2025"
+    title: "Unveiling the Shadows: Tracing the Informal Economy in the Balkans from 1996 to 2021"
+    url: "https://doi.org/10.1080/14631377.2025.2566418"
+    desc: >-
+      Using the MIMIC model, we analyse the informal economy in ten Balkan countries from 1996 to 2021. Results show a decline from approximately 35% in 1996 to over 29% of GDP by 2021, with the COVID-19 pandemic causing a 1–3 percentage point increase in 2020. With Asllani & Schneider.
+    short_title: "Unveiling the Shadows: Informal Economy in the Balkans"
+    short_desc: "Tracing the informal economy in ten Balkan nations from 1996 to 2021 using the MIMIC model."
+
+  # --- Working Papers ------------------------------------------------------
+
+  - section: "Working Papers"
+    date: "2025-08-01"
+    title: "The Good Life Euston Index Methodology"
+    url: "https://doi.org/10.2139/ssrn.6474502"
+    desc: >-
+      The GLEI measures multidimensional prosperity across 12 LSOAs in the Euston area of Camden, London. The third iteration of IGP's Prosperity Index framework, following the CPI in East London and the Maisha Bora Index in Dar es Salaam. With Woodcraft, Kurbucz & Sari Aslam.
+    short_desc: "Measuring multidimensional prosperity across 12 LSOAs in the Euston area of Camden, London."
+
+  - section: "Working Papers"
+    date: "2025-06-01"
+    title: "Measuring What Matters: A Systematic Review of Social Service Coverage in Beyond-GDP Indicators"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10220350/"
+    desc: >-
+      Meta-analysis of 66 Beyond-GDP indicators (1972–2023) mapped against a 22-domain taxonomy. Care services appear in only 17% of indicators, dropping to 6% in the full database of 209 indicators. With Melios & Moore.
+    short_title: "Measuring What Matters"
+    short_desc: "A meta-analysis of 66 Beyond-GDP indicators shows care services appear in only 17% of them."
+
+  - section: "Working Papers"
+    date: "2024-09-01"
+    title: "East London Citizen Prosperity Index Methodology"
+    url: "https://doi.org/10.2139/ssrn.4945628"
+    desc: >-
+      The CPI offers a novel approach to measuring prosperity beyond traditional economic indicators, applied across 15 LSOAs in five east London boroughs. With Woodcraft, Moore & Melios.
+    short_desc: "Measuring prosperity beyond traditional economic indicators across 15 LSOAs in east London."
+
+  - section: "Working Papers"
+    date: "2024-10-01"
+    title: "The Educational Path to Institutional Quality: A Panel Analysis of Developing Economies"
+    url: "https://doi.org/10.2139/ssrn.4973048"
+    desc: >-
+      Examining how education influences institutional quality using a panel of 86 developing nations (1970–2014) with Fixed Effects, GMM, and bias-corrected estimators.
+    short_title: "The Educational Path to Institutional Quality"
+    short_desc: "How education influences institutional quality across 86 developing nations, 1970–2014."
+
+  - section: "Working Papers"
+    date: "2024-10-15"
+    title: "Education and Institutional Quality: Evidence from EU Regions"
+    url: "https://doi.org/10.2139/ssrn.4982819"
+    desc: >-
+      Determinants of institutional quality across 192 NUTS regions from 28 EU member states, using secularism as an instrument for education in IV regression.
+    short_desc: "Determinants of institutional quality across 192 NUTS regions in 28 EU member states."
+
+  - section: "Working Papers"
+    date: "2023-05-01"
+    title: "Crime and Unemployment in the EU: The Role of Labour Market Policies and Shadow Economy"
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4453614"
+    desc: >-
+      The crime-unemployment relationship in 26 EU countries and its moderation by labour market policies and the shadow economy. With Goulas & Karidis.
+    short_title: "Crime and Unemployment in the EU"
+    short_desc: "The crime-unemployment relationship in 26 EU countries, and what moderates it."
+
+  # --- Reports -------------------------------------------------------------
+
+  - section: "Reports"
+    date: "2025-05-01"
+    venue: "IGP Working Paper, 2025"
+    title: "Redefining Prosperity with and for Communities in Dar es Salaam, Tanzania"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10209994/"
+    desc: >-
+      Launching the Maisha Bora ('Good Life') Index — Africa's first citizen-led prosperity measure co-designed over five years with citizen scientists, community members, and government officials. With Woodcraft, Makoba & Ndezi.
+    short_title: "Redefining Prosperity in Dar es Salaam"
+    short_desc: "Launching the Maisha Bora Index — Africa's first citizen-led prosperity measure."
+
+  - section: "Reports"
+    date: "2025-03-01"
+    venue: "IGP, 2025"
+    title: "Developing the Maisha Bora Index"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10205701/"
+    desc: >-
+      With Woodcraft, Moore & Melios.
+    short_desc: "How the Maisha Bora Index was built. With Woodcraft, Moore & Melios."
+
+  - section: "Reports"
+    date: "2024-11-01"
+    venue: "IGP Report, 2024"
+    title: "A Citizen Prosperity Index for East London: New Evidence and a New Approach to Tackling Inequalities"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10199929/"
+    desc: >-
+      Launching the CPI for east London — a new way of measuring prosperity based on long-term research about the determinants of prosperity in local communities. With Woodcraft, Perez & Lorgat.
+    short_title: "A Citizen Prosperity Index for East London"
+    short_desc: "A new way of measuring prosperity, built on long-term research in local communities."
+
+  - section: "Reports"
+    date: "2024-06-04"
+    venue: "IGP Bulletin, 2024"
+    title: "Prosperity in East London 2021–2031 Longitudinal Study: Olympic Park Bulletin"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10195859/"
+    desc: >-
+      Findings for the Olympic Park area. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez.
+    short_title: "Prosperity in East London: Olympic Park"
+    short_desc: "Longitudinal study findings for the Olympic Park area."
+
+  - section: "Reports"
+    date: "2024-06-03"
+    venue: "IGP Bulletin, 2024"
+    title: "Prosperity in East London 2021–2031 Longitudinal Study: Heath Bulletin (Barking & Dagenham)"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10195858/"
+    desc: >-
+      Findings for the Heath area in Barking & Dagenham. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez.
+    short_title: "Prosperity in East London: The Heath"
+    short_desc: "Longitudinal study findings for the Heath area in Barking & Dagenham."
+
+  - section: "Reports"
+    date: "2024-06-02"
+    venue: "IGP Bulletin, 2024"
+    title: "Prosperity in East London 2021–2031 Longitudinal Study: Teviot Estate Bulletin (Tower Hamlets)"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10195860/"
+    desc: >-
+      Findings for the Teviot Estate area in Tower Hamlets. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez.
+    short_title: "Prosperity in East London: Teviot Estate"
+    short_desc: "Longitudinal study findings for the Teviot Estate area in Tower Hamlets."
+
+  - section: "Reports"
+    date: "2024-06-01"
+    venue: "IGP Bulletin, 2024"
+    title: "Prosperity in East London 2021–2031 Longitudinal Study: Royal Docks Bulletin (Newham)"
+    url: "https://discovery.ucl.ac.uk/id/eprint/10195861/"
+    desc: >-
+      Findings for the Royal Docks area in Newham. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez.
+    short_title: "Prosperity in East London: Royal Docks"
+    short_desc: "Longitudinal study findings for the Royal Docks area in Newham."
+
+  # --- PhD Thesis ----------------------------------------------------------
+
+  - section: "PhD Thesis"
+    date: "2018-01-01"
+    title: "Essays on the Quality of Institutions and Economic Performance"
+    url: "https://orca.cardiff.ac.uk/id/eprint/113860/"
+    desc: >-
+      A model of institutional change where the probability of revolution depends on the state of the economy and the level of education. Cardiff University, 2018.
+    short_desc: "A model of institutional change driven by the economy and education. Cardiff University, 2018."
