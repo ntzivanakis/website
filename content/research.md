@@ -4,6 +4,7 @@ title: "Research"
 
 ## Journal Articles
 
+
 <div class="paper">
   <div class="paper-venue">Economics of Transition and Institutional Change (Wiley), 2026</div>
   <div class="paper-title"><a href="https://doi.org/10.1111/ecot.70048">State Capture and the Limits of Human Capital: Education and Institutional Quality in Post-Socialist Europe</a></div>
