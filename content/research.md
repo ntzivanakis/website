@@ -5,6 +5,12 @@ title: "Research"
 ## Journal Articles
 
 <div class="paper">
+  <div class="paper-venue">Economics of Transition and Institutional Change (Wiley), 2026</div>
+  <div class="paper-title"><a href="https://doi.org/10.1111/ecot.70048">State Capture and the Limits of Human Capital: Education and Institutional Quality in Post-Socialist Europe</a></div>
+  <div class="paper-desc">Using the European Quality of Government Index across 183 NUTS-2 regions (2010–2024), this paper shows that education raises institutional quality in Western Europe but not in post-socialist regions, where state capture nullifies its effect. An Oaxaca–Blinder decomposition attributes 77% of the West–East governance gap to different returns to education rather than different levels, and quasi-experimental evidence from democratic backsliding in Hungary and Poland confirms that intensified capture drives institutional decline.</div>
+</div>
+
+<div class="paper">
   <div class="paper-venue">Scientific Reports (Nature), 2025</div>
   <div class="paper-title"><a href="https://doi.org/10.1038/s41598-025-26597-7">SplitWise Regression for Capturing Nonlinear Effects in Interpretable Model Selection</a></div>
   <div class="paper-desc">A stepwise regression framework that adaptively transforms numeric predictors into threshold-based binary features using shallow decision trees, preserving the transparency of linear models while flexibly capturing nonlinear effects. With Kurbucz, Sari Aslam & Sykulski.<br><strong>R Package:</strong> <a href="https://cran.r-project.org/web/packages/SplitWise/index.html">CRAN</a> · <a href="https://github.com/mtkurbucz/SplitWise">GitHub</a> · <a href="https://arxiv.org/abs/2505.15423">arXiv</a></div>
