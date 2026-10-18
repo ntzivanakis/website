@@ -21,16 +21,17 @@
   <div class="latest-work">
     <h2 class="section-title" style="font-size:1.5rem;">Latest Work</h2>
     <div class="latest-grid">
-      {{ range .Site.Params.featured_papers }}
+      {{ $research := sort .Site.Data.research.entries "date" "desc" }}
+      {{ range first 3 $research }}
       <a href="{{ .url }}" class="latest-card" target="_blank">
-        <div class="latest-label"><span class="latest-dot"></span> Publication</div>
+        <div class="latest-label"><span class="latest-dot"></span> Research</div>
         <h3>{{ .title }}</h3>
-        <p>{{ .desc }}</p>
-        <div class="latest-meta">{{ .venue }} →</div>
+        <p>{{ .desc | plainify | truncate 120 }}</p>
+        <div class="latest-meta">{{ with .venue }}{{ . }}{{ else }}Working Paper{{ end }} →</div>
       </a>
       {{ end }}
 
-      {{ range first 2 (where .Site.RegularPages "Section" "blog") }}
+      {{ range first 1 (where .Site.RegularPages "Section" "blog") }}
       <a href="{{ .Permalink }}" class="latest-card">
         <div class="latest-label"><span class="latest-dot"></span> Blog</div>
         <h3>{{ .Title }}</h3>

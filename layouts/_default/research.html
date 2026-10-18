@@ -1,0 +1,65 @@
+{{ define "main" }}
+<div class="container">
+  <h2 class="section-title">{{ .Title }}</h2>
+
+  {{ $entries := .Site.Data.research.entries }}
+
+  {{ $journals := where $entries "type" "journal" }}
+  {{ if $journals }}
+  <h3 class="cv-heading">Journal Articles</h3>
+  {{ range $journals }}
+  <div class="paper">
+    {{ with .venue }}<div class="paper-venue">{{ . }}</div>{{ end }}
+    <div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
+    <div class="paper-desc">{{ .desc | safeHTML }}{{ with .extras }}<br>{{ . | safeHTML }}{{ end }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ $wps := where $entries "type" "working_paper" }}
+  {{ if $wps }}
+  <h3 class="cv-heading">Working Papers</h3>
+  {{ range $wps }}
+  <div class="paper">
+    <div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
+    <div class="paper-desc">{{ .desc | safeHTML }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ $reports := where $entries "type" "report" }}
+  {{ if $reports }}
+  <h3 class="cv-heading">Reports</h3>
+  {{ range $reports }}
+  <div class="paper">
+    {{ with .venue }}<div class="paper-venue">{{ . }}</div>{{ end }}
+    <div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
+    <div class="paper-desc">{{ .desc | safeHTML }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ $bulletins := where $entries "type" "bulletin" }}
+  {{ if $bulletins }}
+  <h3 class="cv-heading">Area Bulletins</h3>
+  {{ range $bulletins }}
+  <div class="paper">
+    {{ with .venue }}<div class="paper-venue">{{ . }}</div>{{ end }}
+    <div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
+    <div class="paper-desc">{{ .desc | safeHTML }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ $thesis := where $entries "type" "thesis" }}
+  {{ if $thesis }}
+  <h3 class="cv-heading">PhD Thesis</h3>
+  {{ range $thesis }}
+  <div class="paper">
+    <div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
+    <div class="paper-desc">{{ .desc | safeHTML }}</div>
+  </div>
+  {{ end }}
+  {{ end }}
+</div>
+{{ end }}

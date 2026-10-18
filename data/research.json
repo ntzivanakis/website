@@ -1,0 +1,134 @@
+{
+  "entries": [
+    {
+      "type": "journal",
+      "date": "2026-06-01",
+      "title": "State Capture and the Limits of Human Capital: Education and Institutional Quality in Post-Socialist Europe",
+      "url": "https://doi.org/10.1111/ecot.70048",
+      "venue": "Economics of Transition and Institutional Change (Wiley), 2026",
+      "desc": "Using the European Quality of Government Index across 183 NUTS-2 regions (2010–2024), this paper shows that education raises institutional quality in Western Europe but not in post-socialist regions, where state capture nullifies its effect. An Oaxaca–Blinder decomposition attributes 77% of the West–East governance gap to different returns to education rather than different levels, and quasi-experimental evidence from democratic backsliding in Hungary and Poland confirms that intensified capture drives institutional decline."
+    },
+    {
+      "type": "journal",
+      "date": "2025-06-01",
+      "title": "SplitWise Regression for Capturing Nonlinear Effects in Interpretable Model Selection",
+      "url": "https://doi.org/10.1038/s41598-025-26597-7",
+      "venue": "Scientific Reports (Nature), 2025",
+      "desc": "A stepwise regression framework that adaptively transforms numeric predictors into threshold-based binary features using shallow decision trees, preserving the transparency of linear models while flexibly capturing nonlinear effects. With Kurbucz, Sari Aslam & Sykulski.",
+      "extras": "<strong>R Package:</strong> <a href=\"https://cran.r-project.org/web/packages/SplitWise/index.html\">CRAN</a> · <a href=\"https://github.com/mtkurbucz/SplitWise\">GitHub</a> · <a href=\"https://arxiv.org/abs/2505.15423\">arXiv</a>"
+    },
+    {
+      "type": "journal",
+      "date": "2025-03-01",
+      "title": "Unveiling the Shadows: Tracing the Informal Economy in the Balkans from 1996 to 2021",
+      "url": "https://doi.org/10.1080/14631377.2025.2566418",
+      "venue": "Post-Communist Economies, 2025",
+      "desc": "Using the MIMIC model, we analyse the informal economy in ten Balkan countries from 1996 to 2021. Results show a decline from approximately 35% in 1996 to over 29% of GDP by 2021, with the COVID-19 pandemic causing a 1–3 percentage point increase in 2020. With Asllani & Schneider."
+    },
+    {
+      "type": "working_paper",
+      "date": "2026-06-01",
+      "title": "Measuring What Matters: A Systematic Review of Social Service Coverage in Beyond-GDP Indicators",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10220350/",
+      "desc": "Meta-analysis of 66 Beyond-GDP indicators (1972–2023) mapped against a 22-domain taxonomy. Care services appear in only 17% of indicators, dropping to 6% in the full database of 209 indicators. With Melios & Moore."
+    },
+    {
+      "type": "working_paper",
+      "date": "2026-01-01",
+      "title": "The Good Life Euston Index Methodology",
+      "url": "https://doi.org/10.2139/ssrn.6474502",
+      "desc": "The GLEI measures multidimensional prosperity across 12 LSOAs in the Euston area of Camden, London. The third iteration of IGP's Prosperity Index framework, following the CPI in East London and the Maisha Bora Index in Dar es Salaam. With Woodcraft, Kurbucz & Sari Aslam."
+    },
+    {
+      "type": "working_paper",
+      "date": "2024-09-01",
+      "title": "East London Citizen Prosperity Index Methodology",
+      "url": "https://doi.org/10.2139/ssrn.4945628",
+      "desc": "The CPI offers a novel approach to measuring prosperity beyond traditional economic indicators, applied across 15 LSOAs in five east London boroughs. With Woodcraft, Moore & Melios."
+    },
+    {
+      "type": "working_paper",
+      "date": "2024-06-01",
+      "title": "The Educational Path to Institutional Quality: A Panel Analysis of Developing Economies",
+      "url": "https://doi.org/10.2139/ssrn.4973048",
+      "desc": "Examining how education influences institutional quality using a panel of 86 developing nations (1970–2014) with Fixed Effects, GMM, and bias-corrected estimators."
+    },
+    {
+      "type": "working_paper",
+      "date": "2024-06-01",
+      "title": "Education and Institutional Quality: Evidence from EU Regions",
+      "url": "https://doi.org/10.2139/ssrn.4982819",
+      "desc": "Determinants of institutional quality across 192 NUTS regions from 28 EU member states, using secularism as an instrument for education in IV regression."
+    },
+    {
+      "type": "working_paper",
+      "date": "2023-06-01",
+      "title": "Crime and Unemployment in the EU: The Role of Labour Market Policies and Shadow Economy",
+      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4453614",
+      "desc": "The crime-unemployment relationship in 26 EU countries and its moderation by labour market policies and the shadow economy. With Goulas & Karidis."
+    },
+    {
+      "type": "report",
+      "date": "2025-04-01",
+      "title": "Redefining Prosperity with and for Communities in Dar es Salaam, Tanzania",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10209994/",
+      "venue": "IGP Working Paper, 2025",
+      "desc": "Launching the Maisha Bora ('Good Life') Index — Africa's first citizen-led prosperity measure co-designed over five years with citizen scientists, community members, and government officials. With Woodcraft, Makoba & Ndezi."
+    },
+    {
+      "type": "report",
+      "date": "2025-01-01",
+      "title": "Developing the Maisha Bora Index",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10205701/",
+      "venue": "IGP, 2025",
+      "desc": "With Woodcraft, Moore & Melios."
+    },
+    {
+      "type": "report",
+      "date": "2024-06-01",
+      "title": "A Citizen Prosperity Index for East London: New Evidence and a New Approach to Tackling Inequalities",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10199929/",
+      "venue": "IGP Report, 2024",
+      "desc": "Launching the CPI for east London — a new way of measuring prosperity based on long-term research about the determinants of prosperity in local communities. With Woodcraft, Perez & Lorgat."
+    },
+    {
+      "type": "bulletin",
+      "date": "2024-03-01",
+      "title": "Prosperity in East London 2021–2031 Longitudinal Study: Olympic Park Bulletin",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10195859/",
+      "venue": "IGP Bulletin, 2024",
+      "desc": "Findings for the Olympic Park area. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez."
+    },
+    {
+      "type": "bulletin",
+      "date": "2024-03-01",
+      "title": "Prosperity in East London 2021–2031 Longitudinal Study: Heath Bulletin (Barking & Dagenham)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10195858/",
+      "venue": "IGP Bulletin, 2024",
+      "desc": "Findings for the Heath area in Barking & Dagenham. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez."
+    },
+    {
+      "type": "bulletin",
+      "date": "2024-03-01",
+      "title": "Prosperity in East London 2021–2031 Longitudinal Study: Teviot Estate Bulletin (Tower Hamlets)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10195860/",
+      "venue": "IGP Bulletin, 2024",
+      "desc": "Findings for the Teviot Estate area in Tower Hamlets. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez."
+    },
+    {
+      "type": "bulletin",
+      "date": "2024-03-01",
+      "title": "Prosperity in East London 2021–2031 Longitudinal Study: Royal Docks Bulletin (Newham)",
+      "url": "https://discovery.ucl.ac.uk/id/eprint/10195861/",
+      "venue": "IGP Bulletin, 2024",
+      "desc": "Findings for the Royal Docks area in Newham. With Woodcraft, Izcue-Gana, Melios, Pietrostefani, Chan, Hasan & Perez."
+    },
+    {
+      "type": "thesis",
+      "date": "2018-01-01",
+      "title": "Essays on the Quality of Institutions and Economic Performance",
+      "url": "https://orca.cardiff.ac.uk/id/eprint/113860/",
+      "desc": "A model of institutional change where the probability of revolution depends on the state of the economy and the level of education. Cardiff University, 2018."
+    }
+  ]
+}
