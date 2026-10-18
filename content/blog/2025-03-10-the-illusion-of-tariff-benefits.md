@@ -19,11 +19,13 @@ Consider a company that imports electronics from overseas. When tariffs are impo
 
 Tariffs raise prices throughout the economy by increasing the cost of imports. Businesses that rely on foreign raw materials must pay more for production, raising the finished goods' price. This can have a number of negative effects, including higher input costs for businesses, higher consumer prices, and fewer consumer options as some products become unprofitable to import (Bureau of Labor Statistics, 2020).
 
-One of the clearest real-world examples of this occurred in 2018 when tariffs on washing machines led to higher costs for American households. The goal was to protect domestic manufacturers, but the result was that consumers paid approximately $86 more per unit. The additional cost to households was estimated at $1.5 billion, but the policy only created a small number of new jobs, each worth hundreds of thousands of dollars (Flaaen et al., 2020).
+One of the clearest real-world examples of this occurred in 2018 when tariffs on washing machines led to higher costs for American households. The goal was to protect domestic manufacturers, but the result was that consumers paid approximately $86 more per unit. The additional cost to households was estimated at $1.5 billion, but the policy only created a small number of new jobs, each worth hundreds of thousands of dollars (Flaaen et al., 2020). The tariffs generated only $82 million in revenue for the U.S. government, highlighting the disproportionate burden on consumers compared to the benefits for the government or domestic manufacturers.
 
 In theory, tariffs benefit domestic industries by reducing competition from lower-cost imports. In practice, the benefits are frequently overstated. While some sectors may benefit in the short term, others face rising costs and declining competitiveness. Economic studies have repeatedly shown that tariffs destroy more jobs than they create, especially in industries that rely on global supply chains (Hufbauer & Lowry, 2012).
 
-Tariffs are rarely seen in isolation. When one country imposes tariffs, others usually respond in kind, resulting in trade wars. The 2018–2019 trade tensions are a clear example. When tariffs were imposed on Chinese goods, China responded by levying tariffs on American agricultural products. American farmers, who had relied on China as a key market, were suddenly unable to compete (Chyzh & Urbatsch, 2021).
+Tariffs are rarely seen in isolation. When one country imposes tariffs, others usually respond in kind, resulting in trade wars. The 2018–2019 trade tensions are a clear example. When tariffs were imposed on Chinese goods, China responded by levying tariffs on American agricultural products. American farmers, who had relied on China as a key market, were suddenly unable to compete. The situation became so dire that the government had to implement bailout programs to compensate for the losses (Chyzh & Urbatsch, 2021).
+
+Tariff escalations, rather than winning trade wars, tend to reduce overall economic efficiency, disrupt supply chains, and create uncertainty, making businesses reluctant to invest.
 
 If tariffs cause more problems than they solve, what are the alternatives? Economic research generally recommends investing in competitiveness through education, infrastructure, and technology; negotiating trade agreements that open markets rather than close them; and assisting workers in transition through retraining programs rather than supporting declining industries through protectionist measures (Irwin, 2017).
 
@@ -31,16 +33,23 @@ Despite their long-standing political appeal, tariffs are primarily a tax on dom
 
 ## Sources
 
-Autor, D., Beck, A., Dorn, D., & Hanson, G. (2024). Help for the Heartland? The Employment and Electoral Effects of the Trump Tariffs in the United States. MIT Working Paper.
-
-Bureau of Labor Statistics. (2020). *Import/Export Price Indexes*. https://www.bls.gov/mxp/
-
-Chyzh, O., & Urbatsch, R. (2021). Bean Counters: The Effect of Soy Tariffs on Change in Republican Vote Share. *Journal of Politics*, 83(1), 415–419.
-
-Flaaen, A., Hortaçsu, A., & Tintelnot, F. (2020). The Production Relocation and Price Effects of US Trade Policy. *American Economic Review*, 110(7), 1904–1946.
-
-Hufbauer, G.C., & Lowry, S. (2012). US Tire Tariffs: Saving Few Jobs at High Cost. *Peterson Institute for International Economics*.
-
-Irwin, D.A. (2017). *Clashing over Commerce: A History of US Trade Policy*. University of Chicago Press.
-
-Santacreu, A.M., et al. (2023). The Effects of Tariffs on the US Economy. *Federal Reserve Bank of St. Louis Review*.
+- Autor, D., Beck, A., Dorn, D., & Hanson, G. (2024). *Help for the Heartland? The Employment and Electoral Effects of the Trump Tariffs in the United States.* National Bureau of Economic Research.
+- Hergt, B. (2020). The effects of tariff rates on the U.S. economy: What the Producer Price Index tells us. *Beyond the Numbers: Prices & Spending*, 9(13). Bureau of Labor Statistics.
+- Brown University. (2025). A global economist's take on tariffs: 'American consumers will get hurt'.
+- Chyzh, O., & Urbatsch, R. (2021). Bean counters: The effect of soy tariffs on change in Republican vote share between the 2016 and 2018 elections. *The Journal of Politics*, 83(1), 415–419.
+- Financial Times. (2025). Business school professors' picks.
+- Financial Times. (2025). Donald Trump's coercion descends into chaos.
+- Flaaen, A., Hortaçsu, A., & Tintelnot, F. (2020). The production relocation and price effects of US trade policy: The case of washing machines. *American Economic Review*, 110(7), 2103–2127.
+- Harvard Kennedy School. (2024). Understanding the Global Economic Impact of Recent U.S. Trade Policies.
+- Hufbauer, G. C., & Lowry, S. (2012). *US tire tariffs: Saving few jobs at high cost.* Peterson Institute for International Economics.
+- Irwin, D. A. (2017). *Clashing over commerce: A history of US trade policy.*
+- Perry, M. (2018). Washing Machine Tariffs Started Trump's Trade War. Result: Historic 3-Month Increase in Washing Machine Prices. <https://www.aei.org/>
+- RBC Thought Leadership. (2025). What is the impact of tariffs on the U.S. economy?
+- Santacreu, A. M., Sposi, M., & Zhang, J. (2021, May). *A Quantitative Analysis of Tariffs Across U.S. States* (Working Paper No. 2021-08). Federal Reserve Bank of Chicago.
+- Stanford Institute for Economic Policy Research. (2025). Framing the next four years: Tariffs, tax cuts and other uncertainties.
+- The New Yorker. (2025). Will Trumpian Uncertainty Knock the Economy Into a Recession?
+- The Wall Street Journal. (2025). Tariff Wars Are Often Short. Their Legacies Aren't.
+- Trade Partnership Worldwide, LLC. (2019). Estimated Impacts of Tariffs on the U.S. Economy and Workers.
+- UC Davis. (2025). How Could Tariffs Affect Consumers, Business and the Economy?
+- Waldenström, D. (2024). A new history of wealth inequality in the West.
+- Weissert, W. (2025). Trump loves the gilded age and its tariffs. It was a great time for the rich but not for the many. *AP News.* <https://apnews.com/article/trump-tariffs-gilded-age-mckinley-grover-cleveland-1592dab80ad7159266db51b5baa774b6> (Accessed: 10 March 2025).
