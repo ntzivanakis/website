@@ -1,4 +1,7 @@
 <footer>
   <span>&copy; {{ now.Year }} Nikolaos Tzivanakis</span>
-  <span><a href="mailto:n.tzivanakis@ucl.ac.uk">n.tzivanakis@ucl.ac.uk</a></span>
+  <span class="footer-links">
+    <a href="mailto:n.tzivanakis@ucl.ac.uk">Email</a>
+    {{ range .Site.Params.profiles }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}
+  </span>
 </footer>

@@ -4,7 +4,7 @@ title: "Data"
 
 <div class="data-grid">
 
-<div class="data-item"><span class="data-dot"></span><div><a href="https://institute-for-global-prosperity.shinyapps.io/citizenprosperityindex/?tab=home">Citizen Prosperity Index – East London (IGP)</a><div class="data-desc">UCL IGP citizen-led neighbourhood prosperity indicators for east London.</div></div></div>
+<div class="data-item data-item-own"><span class="data-dot"></span><div><span class="data-badge">My work</span><a href="https://institute-for-global-prosperity.shinyapps.io/citizenprosperityindex/?tab=home">Citizen Prosperity Index – East London (IGP)</a><div class="data-desc">UCL IGP citizen-led neighbourhood prosperity indicators for east London.</div></div></div>
 
 <div class="data-item"><span class="data-dot"></span><div><a href="https://ucdp.uu.se/">Armed Conflict Dataset (UCDP/PRIO)</a><div class="data-desc">Uppsala/PRIO georeferenced data on armed conflicts worldwide.</div></div></div>
 

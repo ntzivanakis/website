@@ -26,6 +26,6 @@ title: "NT Consulting"
 
 </div>
 
-<div style="margin-top:3rem;text-align:center;">
-  <a href="/contact/" class="hero-links" style="display:inline-block;font-size:0.85rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:#8b4513;padding:0.6rem 1.5rem;border:1.5px solid #8b4513;border-radius:3px;">Get a quote</a>
+<div class="cta">
+  <a href="/contact/" class="btn">Get a quote</a>
 </div>

@@ -21,6 +21,7 @@
   <h3 class="cv-heading">Working Papers</h3>
   {{ range $wps }}
   <div class="paper">
+    <div class="paper-venue">{{ substr .date 0 4 }}</div>
     <div class="paper-title"><a href="{{ .url }}">{{ .title }}</a></div>
     <div class="paper-desc">{{ .desc | safeHTML }}</div>
   </div>

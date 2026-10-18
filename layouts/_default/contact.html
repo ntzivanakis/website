@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="container">
+  <h2 class="section-title">{{ .Title }}</h2>
+  <div class="contact-grid">
+    <div class="contact-intro">
+      {{ .Content }}
+    </div>
+    <div class="contact-card">
+      <h3>Email</h3>
+      <p><a href="mailto:n.tzivanakis@ucl.ac.uk">n.tzivanakis@ucl.ac.uk</a></p>
+      <h3>Address</h3>
+      <p>UCL Institute for Global Prosperity<br>Bartlett Faculty of the Built Environment<br>9–11 Endsleigh Gardens<br>London WC1H 0EH</p>
+      <h3>Profiles</h3>
+      <p class="contact-profiles">
+        {{ range .Site.Params.profiles }}<a href="{{ .url }}">{{ .name }}</a>{{ end }}
+      </p>
+    </div>
+  </div>
+</div>
+{{ end }}

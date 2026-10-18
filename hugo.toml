@@ -1,6 +1,6 @@
 baseURL = "https://nikostzivanakis.com/"
 languageCode = "en-gb"
-title = "Nikos Tzivanakis"
+title = "Nikolaos (Nikos) Tzivanakis"
 
 [pagination]
   pagerSize = 10
@@ -8,6 +8,19 @@ title = "Nikos Tzivanakis"
 [params]
   description = "Applied economist. Senior Research Fellow & Head of Data at UCL's Institute for Global Prosperity."
   author = "Nikolaos Tzivanakis"
+
+  [[params.profiles]]
+    name = "Google Scholar"
+    url = "https://scholar.google.com/citations?hl=en&user=aCWXcZUAAAAJ"
+  [[params.profiles]]
+    name = "ORCID"
+    url = "https://orcid.org/0000-0002-3983-8885"
+  [[params.profiles]]
+    name = "SSRN"
+    url = "https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=5772838"
+  [[params.profiles]]
+    name = "LinkedIn"
+    url = "https://www.linkedin.com/in/nikostzivanakis/"
 
 [menu]
   [[menu.main]]

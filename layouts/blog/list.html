@@ -3,9 +3,11 @@
   <h2 class="section-title">Blog</h2>
   <div class="blog-grid">
     {{ range .Pages }}
-    <a href="{{ .Permalink }}" class="blog-card" style="text-decoration:none;color:inherit;">
+    <a href="{{ .Permalink }}" class="blog-card">
       <div class="blog-date">{{ .Date.Format "January 2006" }}</div>
       <h3>{{ .Title }}</h3>
+      <p>{{ .Summary | plainify | truncate 140 }}</p>
+      <span class="blog-more">Read →</span>
     </a>
     {{ end }}
   </div>
