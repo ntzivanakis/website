@@ -19,7 +19,7 @@ Every model is wrong some of the time, and rarely at the same rate for everyone.
 
 Last comes control. A public body that cannot question a model does not control it. Councils and ministries need staff of their own who can say what a model should predict, and check whether it does.
 
-None of this makes caution the default. Used well, AI widens who can use evidence. My team and I use language models to screen and code studies for systematic reviews, work that takes many weeks by hand. The same tools can serve organisations that could never pay for a research team, such as a small council with no analysts of its own or a local charity. They can find the evidence behind a decision and see where it comes from.
+None of this makes caution the default. Used well, AI widens who can use evidence. Language models can already screen and code studies for systematic reviews, work that takes many weeks by hand. The same tools can serve organisations that could never pay for a research team, such as a small council with no analysts of its own or a local charity. They can find the evidence behind a decision and see where it comes from.
 
 Getting there is shared work. Researchers and developers can publish what their models target and how they fail, as routinely as they publish accuracy. Funders and commissioners can pay for outcomes people value, and decline to buy systems they cannot inspect. Public bodies can treat data skills as core staff, the way they treat legal advice. And anyone, as a resident or a claimant, can ask two questions of a system that makes decisions about them: what is it predicting, and who checked?
 
